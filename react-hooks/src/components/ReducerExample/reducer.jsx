@@ -9,6 +9,7 @@ const reducer = (state, action) => {
       case "DOUBLE":
          return { count: state.count * 2 };
       default:
+         console.log("No action type");
          return { count: state.count }
    }
 };
